@@ -1,0 +1,42 @@
+body{
+    background-color: floralwhite;
+    padding: 0;
+    margin: 0;
+}
+header, footer{
+    text-align: center;
+}
+div{
+    background-color: lavender;
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: ghostwhite;
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    padding: 40px;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+   text-decoration: underline  red;
+}
+main{
+    background-color: white;
+    color: black;
+}
+.welcome{
+    padding: 20px;
+    background-color: rgb(196, 231, 243);
+    text-align: center;
+    color: rgb(0, 0, 0);   
+    font-size: 30px;
+}
