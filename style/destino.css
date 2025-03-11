@@ -1,0 +1,63 @@
+
+body{
+    background-color: floralwhite;
+    padding: 0;
+    margin: 0;
+}
+header,footer{
+    text-align: center;
+    background-color: lavender;
+    font-family: "Merienda", cursive;
+   
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: ghostwhite;
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    padding: 40px;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card{
+  
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Merienda", cursive;
+    padding: 30px;
+    background-color: peru;
+    box-shadow: 15px 15px 15px black;
+    
+
+}
+.card:hover{
+    background-color: lightgray;
+    box-shadow: 0px 5px 15px black;
+    transform: scale(1.05);
+
+}
+.card h1{
+    color: black;
+}
+.card h1,p{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
