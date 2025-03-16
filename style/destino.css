@@ -61,3 +61,18 @@ nav a{
     width: 100%;
     border-radius: 20px;
 }
+footer{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+
+}
+footer a:hover{
+    text-decoration: underline azure;
+}
